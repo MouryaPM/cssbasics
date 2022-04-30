@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Css file</title>
+    <style>
+      /* unvisited */
+      a:link {
+        color: red;
+        text-decoration: none;
+        background-color: #0000ff;
+        padding: 14px 12px;
+        text-align: center;
+      }
+      /* visited */
+      a:visited {
+        color: green;
+      }
+
+      /* mouser over  */
+      a:hover {
+        color: pink;
+      }
+
+      /* selected */
+      a:active {
+        color: blue;
+      }
+
+      /* descendant */
+      /* div p {
+        background-color: yellow;
+      } */
+
+      /* child */
+      /* div > p {
+        background-color: yellow;
+      } */
+
+      /* adjacent sibling */
+      /* div + p {
+        background-color: yellow;
+      } */
+
+      /* general sibling */
+
+      div ~ p {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- descendants -->
+    <p>Paragraph 1</p>
+    <div>
+      <p>Paragraph 2</p>
+    </div>
+    <p>Paragraph 3</p>
+    <code>some code goes here</code>
+    <p>Paragraph 4</p>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1 style="background-color: Tomato">Hi User</h1>
+    <p style="background-color: blueviolet">Lorem ipsum dolor sit amet.</p>
+    <h1 style="color: brown">Text color change</h1>
+    <p style="color: darkgreen">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, in.
+    </p>
+    <h2 style="background-color: rgb(255, 0, 0)">This is rgb background</h2>
+    <h2 style="background-color: rgb(240, 240, 240)">rgb 2</h2>
+    <h2 style="background-color: #3cb371">hex color 1</h2>
+    <h2 style="background-color: #0000ff">blue color</h2>
+    <h2 style="background-color: hsl(300, 100%, 70%)">hsl</h2>
+
+    <!-- borders -->
+    <p style="border-style: dotted; border-width: 5px">
+      This is first dotted border
+    </p>
+    <p style="border-style: dashed; border-width: medium; border-color: blue">
+      Dashed border
+    </p>
+    <p style="border-style: solid; border-width: thick">Solid border</p>
+    <!-- 
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+     -->
+    <p style="border: 5px inset brown; border-radius: 50px">
+      shorthand property
+    </p>
+
+    <p
+      style="
+        background-color: burlywood;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+      "
+    >
+      this is for margin
+    </p>
+    <p style="margin: 25px 50px 75px 100px; background-color: #3cb371">
+      Shorthand Margin
+    </p>
+    <div
+      style="
+        border: 1px solid black;
+        background-color: lightblue;
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, eos alias
+      eligendi soluta itaque esse molestiae rerum ex facilis repudiandae.
+    </div>
+    <div
+      style="
+        border: 1px solid black;
+        background-color: lightblue;
+        padding: 25px 50px 50px 75px;
+        margin: 10px;
+      "
+    >
+      this is shorthand
+    </div>
+    <div
+      style="
+        background-color: aliceblue;
+        height: 200px;
+        width: 50%;
+        margin: 10px;
+      "
+    >
+      this is for height and width
+    </div>
+
+    <div
+      style="
+        background-color: rgb(59, 134, 200);
+        height: 200px;
+        max-width: 150%;
+      "
+    >
+      this is for height and width
+    </div>
+
+    <div
+      style="width: 320px; padding: 10px; border: 1px solid gray; margin: 10px"
+    >
+      <p></p>
+      box model
+    </div>
+
+    <!-- left , right, center, justify -->
+    <h1 style="text-align: center">this is center</h1>
+    <h2 style="text-align: left">this is left</h2>
+    <h2 style="text-align: right">This is right</h2>
+    <br />
+    <div
+      style="
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        text-align: justify;
+        overflow: auto;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quae sequi
+      voluptate ratione quaerat similique sunt itaque incidunt quis deleniti
+      amet mollitia, accusantium ipsum, minima perspiciatis. Deleniti qui culpa
+      inventore consequatur reiciendis minus veritatis sequi optio asperiores
+      inventore consequatur reiciendis minus veritatis sequi optio asperiores
+    </div>
+    <p style="text-align-last: justify">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, earum alias
+      tempora sapiente commodi quam, aut sint ullam vitae perspiciatis mollitia.
+      Ex, odio beatae reprehenderit voluptate ducimus perspiciatis at laboriosam
+      explicabo, ratione accusantium maiores magni officiis quaerat nostrum
+      assumenda, dolorum cupiditate error dolores quos cum ea ipsum. Non odit,
+      deserunt sapiente blanditiis labore facere sunt nulla illum inventore
+      quasi repudiandae alias est hic quia fugit repellat adipisci consequatur
+      tempora aspernatur laudantium quae consequuntur. Nihil inventore, vero
+      praesentium, quia non architecto unde, voluptates harum ducimus sapiente
+      aspernatur? Commodi, nemo culpa expedita doloremque at dolor debitis
+      laudantium porro! Ratione velit minus odit?laudantium porro! Ratione velit
+      minus odit?
+    </p>
+    <br /><br />
+
+    <h1
+      style="
+        text-decoration-line: overline;
+        text-decoration-color: red;
+        text-decoration-style: dashed;
+        text-decoration-thickness: 10px;
+      "
+    >
+      overline
+    </h1>
+    <br />
+    <h2
+      style="
+        text-decoration-line: line-through;
+        text-decoration-color: #0000ff;
+        text-decoration-style: double;
+      "
+    >
+      line-through
+    </h2>
+    <br />
+    <h3
+      style="
+        text-decoration-line: underline;
+        text-decoration-color: #3cb371;
+        text-decoration-style: wavy;
+      "
+    >
+      underline wavy
+    </h3>
+    <br />
+    <h3 style="text-decoration-line: overline underline">
+      overline and underline
+    </h3>
+    <br />
+    <h3 style="text-decoration: underline brown wavy 5px">
+      this is shorthand property
+    </h3>
+    <br />
+    <!-- text-transform -->
+    <p style="text-transform: uppercase">this is uppercase</p>
+
+    <p style="text-transform: lowercase">THIS IS LOWER CASE</p>
+
+    <p style="text-transform: capitalize">this is capitalize</p>
+    <br />
+    <p style="text-indent: 50px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+      asperiores perspiciatis itaque iste temporibus exercitationem harum modi
+      quo consequuntur incidunt? Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Laudantium asperiores perspiciatis itaque iste
+      temporibus exercitationem harum modi quo consequuntur incidunt?
+    </p>
+    <br />
+    <h2 style="letter-spacing: 5px">this is heading 1</h2>
+    <h2 style="letter-spacing: -2px">this is heading 2</h2>
+    <br />
+    <p style="line-height: 0.7">
+      This has smaller height.Lorem, ipsum dolor sit amet consectetur
+      adipisicing elit. Fugiat assumenda illo nostrum accusamus vitae, ipsum eos
+      et. Officiis provident eius, laudantium nobis odio deserunt hic quia
+      temporibus aut ipsa cupiditate!
+    </p>
+    <p style="line-height: 1.7">
+      This has bigger height .Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Repellendus, obcaecati aut illum, id aliquam provident eligendi
+      magni explicabo, voluptatem dolores optio! Cupiditate placeat, praesentium
+      sint iusto quo non provident iure.
+    </p>
+    <p style="word-spacing: 10px">this is para with larger word spacing</p>
+    <p
+      style="word-spacing: -2px; font-family: 'Courier New', Courier, monospace"
+    >
+      this is para with small word spacing
+    </p>
+    <p
+      style="
+        white-space: wrap;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      "
+    >
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam enim magni
+      facilis libero maiores soluta nam dolores iusto minima aliquam nesciunt
+      deleniti culpa accusamus neque tempore quidem sint excepturi voluptatum,
+      porro temporibus! Corporis eum tenetur error alias quasi possimus
+      voluptas. Quasi vel facere magnam, sed repellat eos minima ullam et
+      nostrum earum delectus doloremque, nulla animi tenetur cupiditate expedita
+      doloribus!
+    </p>
+
+    <p style="font-style: normal; font-weight: bold">this is normal</p>
+    <p style="font-style: italic; font-size: 100px">this is italic</p>
+    <p style="font-style: oblique">this oblique</p>
+    <br />
+    <p>
+      <b><a href="https://www.google.com" target="_blank">This is link</a></b>
+    </p>
+    <br />
+    <br />
+  </body>
+</html>

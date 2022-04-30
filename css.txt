@@ -1,0 +1,117 @@
+css 
+
+h1 - selector
+
+color : blue
+property : value
+
+css property
+colors : rgb , hex , hsl
+
+rgb(red,green,blue) - 0 to 255
+rgb(255,0,0)
+rgb(0,0,0) -> black
+rgb(255,255,255) -> white
+
+
+hex:
+255 - ff 
+0 - 0
+#RRGGBB - 0 to 255 
+#ff0000
+
+#000000
+#ffffff
+
+
+hsl 
+hue, saturation and lightness
+hsl()
+0-360
+
+0 is red 
+120 - green 
+240 - blue
+
+0% gray 
+100% - full colors
+
+
+lightness
+0% black 
+50% 
+100% white
+
+2.background-color
+3.Border
+ - border-style
+ - border-width
+ -border-color
+
+ border: width style color
+ border-radius
+
+4.margin 
+    -margin-top 
+    -margin-right
+    -margin-bottom
+    -margin-left
+auto -
+length - px
+% 
+inherit
+
+5.padding:
+    -padding-top 
+    -padding-right
+    -padding-bottom
+    -padding-left 
+
+padding:
+
+6.height/ width
+max-width : 90px 
+width:100%
+
+7.box-model
+content -text and images
+padding - transparent area around content
+border: around padding and content
+margin- outside the border
+
+
+320px(width) + 20px (left +right padding) + 2px boder(left +right) + 20 px margin(left +right)
+
+height+ top paddin+bottom padding+top border+bottom border+topmargin + bottom margin
+
+8.text
+  -color 
+  - alignment
+  -decoration
+    - text-decoration-line 
+    -text-decoration-color 
+    - text-decoration-style 
+    -text-decoration-thickness
+    -text-decoration
+  - transformation
+    - text-transform
+  - text spacing
+
+9 font
+    - font family
+    - font style 
+    -font size
+
+    serif 
+    sans-serif 
+    monospace 
+    cursive
+    fantasy
+
+10.links
+
+11.combinators
+   - descendant selector ( space )
+     -child selector ( > )
+     -adjacent sibling selector ( + )
+     -general sibling selector ( ~ )
